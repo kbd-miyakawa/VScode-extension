@@ -2,11 +2,10 @@
 Visual Studio Codeのためのキー割り当て
 ======================================
 
-
 訳文
 ----
 
-Visual Studio
+### Visual Studio
 Codeは、あなたが、ほとんどのタスクを、キーボードから、直接。実行できます。
 このページは、既定のキー割り当て（キーボード・ショートカット）を一覧で示しています。
 そして、あなたが、それらをどのように更新するかについて説明しています。
@@ -168,7 +167,7 @@ Editor/Window Management
 |  Ctrl+W                ウィンドウを閉じる|                      workbench.action.closeWindow|
 |  Ctrl+F4|              エディタを閉じる|                        workbench.action.closeActiveEditor|
 |  Ctrl+K F|             フォルダを閉じる|                        workbench.action.closeFolder|
-|  unassigned            エディタ・グループ間を循環する           workbench.action.navigateEditorGroups
+|  unassigned     |       エディタ・グループ間を循環する   |        workbench.action.navigateEditorGroups
 |  Ctrl+\\|              エディタを分割|                          workbench.action.splitEditor|
 |  Ctrl+1|               左側のエディタにフォーカスする|          workbench.action.focusFirstEditor|
 |  Ctrl+2|               横のエディタにフォーカスする|            workbench.action.focusSecondEditor|
@@ -500,8 +499,7 @@ VS CodeのUI固有のwhenコンテキストのいくつかを見るかもしれ�
 Removing a specific key binding rule
 
 あなたは、キー割り当て規則を記述することができます。それは、特定の既定のキー割り当ての削除を目的としています。
-keybindings.jsonで、それは、常に、VS
-Codeのすべてのキー割り当てを再定義することが可能ですが、
+keybindings.jsonで、それは、常に、VS Codeのすべてのキー割り当てを再定義することが可能ですが、
 TabやEscのような、特にオーバーロードされたキーの周辺で、小さな微調整を行うことが、非常に困難です。
 特定のキー割り当てを削除するために、単純に、－コマンドと追加すると、規則は、削除は規則になります。
 
